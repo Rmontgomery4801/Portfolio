@@ -1,35 +1,88 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body {
     background-color: rgb(164, 180, 224);
+    margin: 0;
 }
 
-.header {
-    padding: 20px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.header h1 {
-    display: inline-block;
-    font-size: 55px;
-}
-
-.body h2 {
-    display: inline-flexbox;
-    font-size: 30px;
-    font-style: italic;
-}
-
-.wrapper {
-    margin: 0 auto;
-    width: 1000px;
-}
-
-.img-myself22{
+.img-myself22 {
     width: 200px;
-    
+    div width: 200px;
+        border: 10px solid navy;
+        padding: 1px;
+        margin: 20px;
 }
+
+nav {
+    display: flex;
+    background-color: ;
+}
+
+/* I am just starting off my journey */
+intro {
+    display: inline-table;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin: 5px;
+}
+
+/* Hi! My name is */
+body strong {
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Links */
+nav a {
+    color:whitesmoke;
+    padding: 10px 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+
+main {
+    display: flex;
+}
+
+header h1 {
+    display: ;
+    font-size: 55px;
+    div 
+    width: 200px;
+    border: 10px solid navy;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Projects. I want to add boxes underneath this section for future projects. */
+body h2 {
+    display: inline-table;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+footer {
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    padding: 5%;
+    background-color: navy;
+    color: whitesmoke;
+  }
