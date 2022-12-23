@@ -17,16 +17,19 @@ header {
 }
 
 .img-myself22 {
+    width: 12%;
+    padding: auto;
+}
+
+.img-cs-img {
     width: 200px;
-    div width: 200px;
-        border: 10px solid navy;
-        padding: 1px;
-        margin: 20px;
+    padding: 10px;
+    margin: 20px;
 }
 
 nav {
     display: flex;
-    background-color: ;
+    /* background-color: ; */
 }
 
 /* I am just starting off my journey */
@@ -47,7 +50,7 @@ body strong {
 
 /* Links */
 nav a {
-    color:whitesmoke;
+    color: whitesmoke;
     padding: 10px 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
@@ -61,28 +64,44 @@ main {
 }
 
 header h1 {
-    display: ;
+    display: inline-block;
     font-size: 55px;
-    div 
-    width: 200px;
+
     border: 10px solid navy;
     padding: 10px;
     margin: 20px;
 }
 
-/* Projects. I want to add boxes underneath this section for future projects. */
-body h2 {
-    display: inline-table;
+/* Projects. */
+h2 {
+    display: inline-flex;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+
 }
 
+.comingSoon {
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
 
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* */
 footer {
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
-    padding: 5%;
+    padding: 3%;
     background-color: navy;
     color: whitesmoke;
-  }
+}
