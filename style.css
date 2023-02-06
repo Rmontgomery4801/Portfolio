@@ -19,6 +19,8 @@ header {
 .img-myself22 {
     width: 12%;
     padding: auto;
+    margin: 5px 5px;
+    border-radius: 20px;
 }
 
 .img-cs-img {
@@ -35,6 +37,7 @@ nav {
 /* I am just starting off my journey */
 intro {
     display: inline-table;
+    margin: 10px 10px;
     font-size: 17px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
@@ -75,6 +78,7 @@ header h1 {
 /* Projects. */
 h2 {
     display: inline-flex;
+    margin: 10px 10px;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-items: center;
@@ -101,7 +105,7 @@ footer {
     display: flex;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
-    padding: 3%;
+    padding: 44px;
     background-color: navy;
     color: whitesmoke;
 }
