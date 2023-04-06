@@ -1,111 +1,127 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(164, 180, 224);
-    margin: 0;
+  background: linear-gradient(45deg, #4c57ec 25%, #56d88a 100%);
+  margin: 0;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: navy;
-    color: whitesmoke;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: navy;
+  color: whitesmoke;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .img-myself22 {
-    width: 12%;
-    padding: auto;
-    margin: 5px 5px;
-    border-radius: 20px;
+  width: 12%;
+  padding: auto;
+  margin: 5px 5px;
+  border-radius: 20px;
 }
 
 .img-cs-img {
-    width: 200px;
-    padding: 10px;
-    margin: 20px;
+  width: 200px;
+  padding: 10px;
+  margin: 20px;
 }
 
 nav {
-    display: flex;
-    /* background-color: ; */
+  display: flex;
 }
 
 /* I am just starting off my journey */
 intro {
-    display: inline-table;
-    margin: 10px 10px;
-    font-size: 17px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: left;
-    margin: 5px;
+  display: inline-table;
+  color: whitesmoke;
+  margin: 10px 10px;
+  font-size: 17px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: left;
+  margin: 5px;
 }
 
 /* Hi! My name is */
 body strong {
-    display: inline-block;
-    font-size: 22px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: inline-block;
+  font-size: 22px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* Links */
 nav a {
-    color: whitesmoke;
-    padding: 10px 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-    text-decoration-line: underline;
-    text-align: center;
+  color: whitesmoke;
+  text-decoration: underline;
+  padding: 10px 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  text-decoration-line: underline;
+  text-align: center;
 }
 
-
 main {
-    display: flex;
+  display: flex;
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 55px;
-
-    border: 10px solid navy;
-    padding: 10px;
-    margin: 20px;
+  display: inline-block;
+  font-size: 55px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 10px solid #56d88a;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
 }
 
 /* Projects. */
 h2 {
-    display: inline-flex;
-    margin: 10px 10px;
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    align-items: center;
-
+  display: inline-flex;
+  color: #56d88a;
+  margin: 10px 10px;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  align-items: center;
 }
 
 .comingSoon {
-    border: 2px solid whitesmoke;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
+  border: 5px solid rgb(220, 220, 229);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
 }
 
 .cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* */
 footer {
-    display: flex;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    justify-content: center;
-    padding: 44px;
-    background-color: navy;
-    color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  justify-content: center;
+  padding: 44px;
+  background-color: navy;
+  color: whitesmoke;
 }
