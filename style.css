@@ -18,6 +18,7 @@ header {
     "Lucida Sans", Arial, sans-serif;
 }
 
+/* selfie */
 .img-myself22 {
   width: 14%;
   padding: auto;
@@ -32,6 +33,7 @@ header {
   overflow: hidden;
 }
 
+/* project images */
 .img-cs-img {
   max-width: 100% !important;
   max-height: 100%;
@@ -74,7 +76,7 @@ body strong {
   line-height: 1;
 }
 
-/* Links */
+/* links */
 nav a {
   color: black;
   text-decoration: none;
@@ -96,6 +98,7 @@ main {
   display: flex;
 }
 
+/* portfolio header */
 header h1 {
   color: black;
   display: inline-block;
@@ -110,7 +113,7 @@ header h1 {
   margin: 20px;
 }
 
-/* Projects. */
+/* projects. */
 h2 {
   display: inline-flex;
   color: black;
@@ -127,6 +130,7 @@ h2 {
   box-shadow: 3px 3px 10px #b5aabf;
 }
 
+/* group projects images */
 .comingSoon {
   border: 5px solid rgb(220, 220, 229);
   border-radius: 10px;
@@ -146,6 +150,7 @@ h2 {
   font-size: 20px;
 }
 
+/* containers */
 .cardContainer {
   display: flex;
   flex-direction: column;
@@ -153,7 +158,6 @@ h2 {
   align-items: center;
 }
 
-/* */
 footer {
   display: flex;
   align-items: center;
